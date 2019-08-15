@@ -1,0 +1,118 @@
+hash: 8cf20fd3b9f646bb4390f916655c3bc2a4c8b06bf0e7ace970d070c81b3c2139
+updated: 2019-08-05T11:30:59.592026+08:00
+imports:
+- name: github.com/aws/aws-sdk-go
+  version: f3fe96892dc0e8e8e9862456e1455e62e4cb55d4
+  subpackages:
+  - aws
+  - aws/awserr
+  - aws/awsutil
+  - aws/client
+  - aws/client/metadata
+  - aws/corehandlers
+  - aws/credentials
+  - aws/credentials/ec2rolecreds
+  - aws/credentials/endpointcreds
+  - aws/credentials/processcreds
+  - aws/credentials/stscreds
+  - aws/csm
+  - aws/defaults
+  - aws/ec2metadata
+  - aws/endpoints
+  - aws/request
+  - aws/session
+  - aws/signer/v4
+  - internal/ini
+  - internal/sdkio
+  - internal/sdkrand
+  - internal/sdkuri
+  - internal/shareddefaults
+  - private/protocol
+  - private/protocol/json/jsonutil
+  - private/protocol/jsonrpc
+  - private/protocol/query
+  - private/protocol/query/queryutil
+  - private/protocol/rest
+  - private/protocol/xml/xmlutil
+  - service/ecr
+  - service/sts
+  - service/sts/stsiface
+- name: github.com/docker/distribution
+  version: 1fb7fffdb26687adf375a4433a58a0d66a13fede
+  subpackages:
+  - digestset
+  - reference
+- name: github.com/docker/docker
+  version: 90d35abf7b3535c1c319c872900fbd76374e521c
+  subpackages:
+  - api
+  - api/types
+  - api/types/blkiodev
+  - api/types/container
+  - api/types/events
+  - api/types/filters
+  - api/types/image
+  - api/types/mount
+  - api/types/network
+  - api/types/registry
+  - api/types/strslice
+  - api/types/swarm
+  - api/types/time
+  - api/types/versions
+  - api/types/volume
+  - client
+  - pkg/archive
+  - pkg/fileutils
+  - pkg/idtools
+  - pkg/ioutils
+  - pkg/longpath
+  - pkg/pools
+  - pkg/promise
+  - pkg/system
+  - pkg/tlsconfig
+- name: github.com/docker/go-connections
+  version: fd1b1942c4d55f7f210a8387e612dc6ffee78ff6
+  subpackages:
+  - nat
+  - sockets
+  - tlsconfig
+- name: github.com/docker/go-units
+  version: 519db1ee28dcc9fd2474ae59fca29a810482bfb1
+- name: github.com/docker/libtrust
+  version: aabc10ec26b754e797f9028f4589c5b7bd90dc20
+- name: github.com/jmespath/go-jmespath
+  version: c2b33e8439af944379acbdd9c3a5fe0bc44bd8a5
+- name: github.com/konsorten/go-windows-terminal-sequences
+  version: f55edac94c9bbba5d6182a4be46d86a2c9b5b50e
+- name: github.com/Microsoft/go-winio
+  version: a969fb018bd3439cc50861ce06796c40430e3a65
+  subpackages:
+  - pkg/guid
+- name: github.com/opencontainers/go-digest
+  version: ac19fd6e7483ff933754af248d80be865e543d22
+- name: github.com/opencontainers/runc
+  version: 80d35c7ce445a595e5139a0939d2cd37eb200525
+  subpackages:
+  - libcontainer/system
+  - libcontainer/user
+- name: github.com/pkg/errors
+  version: 27936f6d90f9c8e1145f11ed52ffffbfdb9e0af7
+- name: github.com/sirupsen/logrus
+  version: 839c75faf7f98a33d445d181f3018b5c3409a45e
+- name: github.com/Sirupsen/logrus
+  version: 07a84ee7412e7a28663d92930a1d46f81b124ee1
+  repo: https://github.com/sirupsen/logrus
+  vcs: git
+- name: golang.org/x/net
+  version: ca1201d0de80cfde86cb01aea620983605dfe99b
+  subpackages:
+  - context
+  - context/ctxhttp
+- name: golang.org/x/sys
+  version: 51ab0e2deafac1f46c46ad59cf0921be2f180c3d
+  subpackages:
+  - unix
+  - windows
+- name: gopkg.in/yaml.v2
+  version: 51d6538a90f86fe93ac480b35f37b2be17fef232
+testImports: []
